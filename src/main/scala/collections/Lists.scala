@@ -1,4 +1,6 @@
-object Collections {
+package collections
+
+object Lists {
 
   //Scala Lists
   //Source: https://www.geeksforgeeks.org/scala-lists/
