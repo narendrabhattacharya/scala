@@ -6,7 +6,7 @@ object Collections {
   def main(args:Array[String])
   {
     // Creating and initializing immutable lists
-    val mylist1: List[String] = List("Geeks", "GFG", "GeeksforGeeks", "Geek123")
+    val mylist1: List[String] = List("A", "B", "C", "D")
     val mylist2 = List("C", "C#", "Java", "Scala", "PHP", "Ruby")
 
     // Display the value of mylist1
