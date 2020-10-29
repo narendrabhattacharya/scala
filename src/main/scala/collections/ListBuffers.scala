@@ -32,6 +32,7 @@ To use ListBuffer, scala.collection.mutable.ListBuffer class is imported, an ins
     // print second element
     println(myList(1));
     println(myList)
+    println("test")
 
   }
 
