@@ -4,6 +4,25 @@ object Lists {
 
   //Scala Lists
   //Source: https://www.geeksforgeeks.org/scala-lists/
+  /*
+  A list is a collection which contains immutable data. List represents linked list in Scala. The Scala List class holds a sequenced, linear list of items.
+Following are the point of difference between lists and array in Scala:
+
+Lists are immutable whereas arrays are mutable in Scala.
+Lists represents a linked list whereas arrays are flat.
+Syntax:
+
+val variable_name: List[type] = List(item1, item2, item3)
+or
+val variable_name = List(item1, item2, item3)
+Some important points about list in Scala:
+
+In a Scala list, each element must be of the same type.
+The implementation of lists uses mutable state internally during construction.
+In Scala, list is defined under scala.collection.immutable package.
+A List has various methods to add, prepend, max, min, etc. to enhance the usage of list.
+
+   */
 
   def main(args: Array[String]) {
     // Creating and initializing immutable lists
@@ -51,10 +70,10 @@ object Lists {
 
     //merge lists in scala
     //By using ++
-    val mylistmerged1 = mylist1++mylist2
+    val mylistmerged1 = mylist1 ++ mylist2
     mylistmerged1.foreach(println)
     //By using :::
-    val mylistmerged2 = mylist1:::mylist2
+    val mylistmerged2 = mylist1 ::: mylist2
     mylistmerged2.foreach(println)
     //By using concat method
     val mylistmerged3 = List.concat(mylist1, mylist2)
