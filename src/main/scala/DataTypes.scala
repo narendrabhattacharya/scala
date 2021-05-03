@@ -20,5 +20,6 @@ object DataTypes
     println("short:" + a4)
     println("double:" + a5)
     println("char:" + a6)
+    println("datatype:" + a5.getClass)
   }
 }
